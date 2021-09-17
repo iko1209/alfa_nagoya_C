@@ -68,7 +68,7 @@ Youtube貼り付けここまで -->
               1番麺の引数 $event は正解、不正解の判定を受け取る変数です。
               []、()の間違い、''の抜けがあると動きません。
             ------------------------------------------------------------------------------------------------------------>
-            <answer-input v-bind:correct="correctAnswer['stage1']['タイタニック']" v-on:answer-input="answerInput($event, 'stage1', 1)"></answer-input>
+            <answer-input v-bind:correct="correctAnswer['stage1']['q1']" v-on:answer-input="answerInput($event, 'stage1', 1)"></answer-input>
 
             <a class="link-hint" href="hint1.html" target="hint1">ヒントをみる ></a>
           </div>
@@ -85,9 +85,9 @@ Youtube貼り付けここまで -->
           <div class="container">
             <div class="clear-message">
               <div class="clear-message__title">STAGE：１  クリア！</div>
-              <div class="clear-message__content">家庭科室の扉が開いた！<br>
-                さぁ先生を助けるため<br>
-                ３つステージの謎をとき、暗号を見つけ出そう！</div>
+              <div class="clear-message__content">タイタニック号の乗船チケットを手に入れた！<br>
+                アメリカへの豪華な冒険の始まりだ！<br>
+                豪華客船だけあってお金持ちが多い。ジャックは上流階級のローズと出会い、お互いに惹かれあっていった。</div>
               <button v-on:click="nextStage('stage1')" onclick="location.href='#sectionStage2'" class="clear-message__btn btn">次のステージへ<svg class="btn__arrow"><use xlink:href="#arrow"></use></svg></button>
             </div>
           </div>
@@ -106,10 +106,10 @@ Youtube貼り付けここまで -->
         <section>
           <div class="section">
             <div class="container">
-              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>黒板に書かれている謎を解け！</h2>
-              <p class="text-center">家庭科室に入ることができた！<br>
-                すぐに目に入ったのは黒板にある４つの謎。<br>
-                これらを解くことで、きっと次のステップに繋がるはずだ！</p>
+              <h2 class="section-title section-title--keycolorlight"><span class="section-title__stage">STAGE：2</span>脱出するために鍵を探せ！</h2>
+              <p class="text-center">実はローズには婚約者がいたのだ。<br>
+                ジャックは婚約者に嫉妬され、船底に監禁されてしまった！<br>
+                ローズが心配だ！早くここから脱出しないと！</p>
             </div>
           </div>
           <div class="stage-column__container section bg-color--keycolor">
